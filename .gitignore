@@ -1,0 +1,36 @@
+# Ignore Node.js dependencies and build artifacts in the server folder
+server/node_modules/
+server/dist/
+server/build/
+server/.env
+
+# Ignore log files in the server folder
+server/*.log
+
+# Ignore dependency directories for the React frontend
+candidate/node_modules/
+candidate/.env
+
+# Ignore build artifacts for the React frontend
+candidate/build/
+candidate/dist/
+
+# Ignore IDE/editor-specific files
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+*.vscode/
+*.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+
+# Ignore coverage reports
+coverage/

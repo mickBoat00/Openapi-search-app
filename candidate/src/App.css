@@ -1,0 +1,17 @@
+.container {
+  background-color: #F5F5F5;
+  display: flex;
+  align-items: center;
+  min-height: 100vh; 
+  padding: 1rem;
+  flex-direction: column;
+
+}
+
+.user-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  max-width: 1200px;
+  width: 100%;
+}
